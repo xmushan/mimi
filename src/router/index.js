@@ -14,8 +14,28 @@ Vue.use(VueRouter)
           path: '/index',
           name: 'index',
           component: () => import('../pages/index')
+        },
+        {
+          path: '/product/:id',
+          name: 'product',
+          component: () => import('../pages/product')
+        },
+        {
+          path: 'detail/:id',
+          name: 'detail',
+          component: () => import('../pages/detail')
         }
       ]
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../pages/login')
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: () => import('../pages/register')
     }
 ]
 
