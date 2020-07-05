@@ -202,8 +202,8 @@ export default {
       return window.sessionStorage.getItem('username')
     },
     cartCount() {
-      //return this.$store.state.cartCount
-      return window.sessionStorage.getItem('sum')
+      return this.$store.state.cartCount
+      //return window.sessionStorage.getItem('sum')
     }
   },
   //价格格式过滤器
