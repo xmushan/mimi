@@ -21,7 +21,7 @@
     "@vue/cli-service": "^4.3.0",
     "axios": "^0.19.2",
     "jsonp": "^0.2.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2",
     "swiper": "^5.3.8",
     "vue-awesome-swiper": "^4.1.1",
